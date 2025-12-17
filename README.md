@@ -15,13 +15,15 @@
 3. Добавьте интерфейс (BPI_GetComponents) к классу вашего персонажа и к контроллеру игрока! и передайте GatheringComponent функции GetGatheringComponent. Внутри проекта я прокомментировал эти функции, если вам покажется проблематичным, как передать компонент.  
 ![Интерфейс](https://sun9-54.userapi.com/s/v1/ig2/tT3ni7l34vXggMaeR340sZGMHKW1mjo9ro8S0bVWiPFUqsu8lVgZZ5rkcXI5dVLJfPEybspEKSFAsXrYaIngDpuu.jpg?quality=95&as=32x15,48x22,72x34,108x51,160x75,240x112,360x169,480x225,540x253,640x300,651x305&from=bu&cs=651x0)  
 4. Добавьте DT_Gathering_System_GameplayTags в настройки проекта/GameplayTags/Список таблиц игровых тегов.
+
 ![Интерфейс](https://sun9-2.userapi.com/s/v1/ig2/4WIt1mdSool4I1nInlGoVG6GktYuRww3_-mFNWUE66GFcnUL5Er8pkvV0VO7mttvRsajVAK5H472mAV1_HfAHYUt.jpg?quality=95&as=32x5,48x7,72x11,108x16,160x24,240x36,360x54,480x72,540x81,596x89&from=bu&cs=596x0)  
-5. Если у вас есть свой собственный персонаж с AnimationBlueprint, скопируйте AnimNotifies из ABP, подключенного к DemoCharacter, в свой AnimationBP.
+6. Если у вас есть свой собственный персонаж с AnimationBlueprint, скопируйте AnimNotifies из ABP, подключенного к DemoCharacter, в свой AnimationBP.
 ![Интерфейс](https://sun9-9.userapi.com/s/v1/ig2/qrRk9s9by5wXDBGuhCmTXbQx7x7_imNTUIhpKaVZ68K-InKOrqJ2xk72ElZPoO0zXXTFZnWKdLrjx6d7yr4tQ-LM.jpg?quality=95&as=32x9,48x14,72x21,108x32,160x47,240x70,360x105,480x140,540x158,640x187,720x211,1001x293&from=bu&cs=1001x0)
 Не забудьте, если у вас есть своя собственная анимация, добавить эти анимационные уведомления в свой монтаж gathering
+
 ![Интерфейс](https://sun9-73.userapi.com/s/v1/ig2/MNtrz9dVAXMC3-POsT-GXAunVoESszGJhKZd1V6EtFWm1HsMXHaJXbboEDitAy3J82qHwRPdIlfUHz2sX5LNtnt8.jpg?quality=95&as=32x7,48x11,72x16,108x24,160x35,240x53,360x79,363x80&from=bu&cs=363x0)
 
-6. В компоненте BPAC_GatheringComponent на вкладке Animations убедитесь, что вы правильно настроили гнездо для подключения инструмента. Это гнездо должно совпадать с гнездом в вашей позиции SkeletalMesh, к которому прикреплен инструмент.
+7. В компоненте BPAC_GatheringComponent на вкладке Animations убедитесь, что вы правильно настроили гнездо для подключения инструмента. Это гнездо должно совпадать с гнездом в вашей позиции SkeletalMesh, к которому прикреплен инструмент.
 ![Интерфейс](https://sun9-68.userapi.com/s/v1/ig2/lgdwCqz7n6qEy9n8kR38biLGogneV8Q_oU6va1xDs2RNAPo3FYFxguNSe61QDBj15_P9p3Cm_eMANtdB31Im9fTA.jpg?quality=95&as=32x3,48x5,72x7,108x11,160x16,240x24,360x37,480x49,540x55,588x60&from=bu&cs=588x0)
 
 **EN:**
